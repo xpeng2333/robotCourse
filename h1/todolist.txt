@@ -1,0 +1,12 @@
+1.安装Ubuntu14.04或以上版本的linux系统并熟悉基本操作；
+2. 书写⼀个由 cmake 组织的 C++ ⼯程，并书写 CMakeLists.txt，要求如下：
+
+     (1). 参考示例代码，编译 include/hello.h 和 src/hello.c 构成 libhello.so 库。其中hello.c 中提供⼀个函数 sayHello()，调⽤此函数时往屏幕输出⼀⾏“Hello ”
+
+     (2). ⽂件 useHello.c 中含有⼀个 main 函数，它可以编译成⼀个可执⾏⽂件，名为“sayhello”。
+
+     (3). 默认⽤ Release 模式编译这个⼯程。
+
+     (4). 支持使⽤命令 sudo make install，该命令将 hello.h 放⾄/usr/local/include/下，将 libhello.so 放 ⾄/usr/local/lib/下
+
+3. 运行参考书《视觉SLAM十四讲》P45-47的eigenMatrix.cpp程序并熟悉代码；
